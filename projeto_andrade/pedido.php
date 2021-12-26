@@ -114,7 +114,7 @@ $consulta_omelete = $conexao->query("SELECT * FROM `produto` WHERE `classe_produ
     </div>
 
     <!-- Page Content -->
-    <div id="carrosel" class="container">
+    <div id="carrosel" class="container fixed-top">
 
         <div class="row">
 
@@ -396,6 +396,7 @@ $consulta_omelete = $conexao->query("SELECT * FROM `produto` WHERE `classe_produ
 
         #carrosel {
             margin-top: 8%;
+            background-color: #000;
         }
 
         #img_carousel {
