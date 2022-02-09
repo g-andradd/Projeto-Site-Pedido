@@ -81,9 +81,9 @@
                     </form>
                     <div class="form-group">
                         <div class="hint-text">
-                            <p style="font-size: 16px;">Não tem uma conta?</p>
+                            <p style="font-size: 20px; font-weight: bold;">Não tem uma conta?</p>
                         </div>
-                        <a href="cadastro.php" id="botao_pedir"><button class="btn btn-primary btn-block btn-1">Cadastre-se</button></a>
+                        <a href="cadastro.php " id="botao_pedir"><button class="btn btn-primary btn-block btn-1" style="text-decoration:none;">Cadastre-se</button></a>
                     </div>
                 </div>
             </div>
