@@ -442,34 +442,6 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
-    <style>
-        #x_perfil {
-            font-size: 20px;
-        }
-
-        #entrar_login {
-            margin-top: 5%;
-            margin-left: 34%;
-        }
-
-        #botao_pedir {
-            color: white;
-        }
-
-        #portfolioModalP {
-            visibility: visible;
-            opacity: 1;
-            flex-direction: column;
-            position: fixed;
-            padding: 20px;
-            max-width: 370px;
-            border-radius: 8px;
-            width: 100%;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
 </body>
 
 </html>
