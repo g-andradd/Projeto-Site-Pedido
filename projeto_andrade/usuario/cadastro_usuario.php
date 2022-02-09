@@ -116,13 +116,5 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-<style>
-	#cadastro{
-		margin-top: -85px;
-    	width: 100%;
-		width: 900px;
-		margin-left: 5px;
-	}
-</style>
 </body>
 </html>

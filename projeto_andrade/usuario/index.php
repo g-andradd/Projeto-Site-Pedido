@@ -89,15 +89,6 @@
 	</script>
 	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
-	<style>
-		#img {
-			margin-top: -85px;
-		}
-
-		#login {
-			margin-top: -89px;
-		}
-	</style>
 </body>
 
 </html>

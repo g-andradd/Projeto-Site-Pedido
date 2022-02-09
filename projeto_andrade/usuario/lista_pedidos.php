@@ -163,12 +163,6 @@ $consulta_pedido = $conexao->query("SELECT * FROM `pedido`");
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/datatables-demo.js"></script>
-    <style>
-        #botao_pedir {
-            background-color: #000;
-            border: none;
-        }
-    </style>
 </body>
 
 </html>
