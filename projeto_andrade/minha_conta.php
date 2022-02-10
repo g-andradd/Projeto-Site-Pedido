@@ -45,6 +45,19 @@ $consulta_cliente = $conexao->query("SELECT * FROM `cliente` WHERE idcliente = $
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="pedido_logado.php">Cardápio</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#">Carrinho</a>
+
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>Try scrolling the rest of the page to see this option in action.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
                         <div class="row">
                             <div class="col-md pl-4 user-dropdown">
                                 <div class="dropdown btn-group">
