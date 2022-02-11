@@ -27,7 +27,7 @@ $lista = $consulta_pedido->fetch(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Alterar Produto - Yukihira</title>
+    <title>Alterar Pedido - Yukihira</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
@@ -61,7 +61,7 @@ $lista = $consulta_pedido->fetch(PDO::FETCH_ASSOC);
                 <div class="wrap-login100">
                     <form id="cadastro" class="login100-form validate-form" action="processa_alterar_pedido.php" method="POST">
                         <span class="login100-form-title">
-                            Alterar Produto
+                            Alterar Pedido
                         </span>
                         <div class="col-form-label"> <label>Nome do Pedido:</label>
                             <div class="wrap-input100">
@@ -94,8 +94,8 @@ $lista = $consulta_pedido->fetch(PDO::FETCH_ASSOC);
                         </div>
 
                         <div class="text-center p-t-12">
-                            <a class="txt2" href="lista_produto.php">
-                                Voltar à lista de produto
+                            <a class="txt2" href="lista_pedidos.php">
+                                Voltar à lista de pedidos
                             </a>
                         </div>
                     </form>
@@ -112,49 +112,6 @@ $lista = $consulta_pedido->fetch(PDO::FETCH_ASSOC);
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/datatables-demo.js"></script>
-</body>
-
-</html>
-</div>
-
-</div>
-
-<style>
-    .login101-form-btn {
-        font-family: Montserrat-Bold;
-        font-size: 15px;
-        line-height: 1.5;
-        color: #fff;
-        text-transform: uppercase;
-        width: 100%;
-        height: 50px;
-        border-radius: 25px;
-        background: #000000;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 25px;
-        -webkit-transition: all 0.4s;
-        -o-transition: all 0.4s;
-        -moz-transition: all 0.4s;
-        transition: all 0.4s;
-    }
-
-    #botao_cadastro {
-        background: black;
-    }
-
-    #cadastro {
-        margin-top: -85px;
-        width: 100%;
-        width: 900px;
-        margin-left: 5px;
-    }
-</style>
 </body>
 
 </html>

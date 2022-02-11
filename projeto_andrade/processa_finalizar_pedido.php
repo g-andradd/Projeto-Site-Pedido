@@ -17,7 +17,7 @@ $valor_pedido = $valor_produto * $quantidade_pedido;
 
 
 
-// CASTRO PEDIDO 
+// CADASTRO PEDIDO 
 $cadastro= $conexao->prepare("INSERT INTO `pedido` (`nome_pedido`, `data_pedido`, `quantidade_pedido`, `valor_pedido`, `cliente_idcliente`) VALUES 
 ( :nome_pedido, :data_pedido, :quantidade_pedido, :valor_pedido, :cliente_idcliente);
 ");

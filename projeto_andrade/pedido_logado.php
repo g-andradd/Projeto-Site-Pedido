@@ -38,7 +38,7 @@ $nome = $_SESSION['sessao_nome'];
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="font-style: normal; font-family: sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <div>
@@ -360,74 +360,6 @@ $nome = $_SESSION['sessao_nome'];
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
-    <style>
-        body {
-            font-style: normal;
-            font-family: sans-serif;
-        }
-
-        .modal-header {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            padding: 1rem 1rem;
-            border-bottom: 0 solid #dee2e6;
-            border-top-left-radius: 0.75rem;
-            border-top-right-radius: 0.75rem;
-        }
-
-
-        #perfil {
-            border: none;
-        }
-
-        #mainNav {
-            background-color: #ca0f0f;
-        }
-
-        #carrosel {
-            margin-top: 8%;
-        }
-
-        #img_carousel {
-            width: 100%;
-        }
-
-        #lista_pedidos {
-            margin-top: 7%;
-        }
-
-        #itens {
-            margin-left: 2%;
-        }
-
-        #social {
-            margin-top: 9px;
-            font-size: 22px;
-        }
-
-        #botao_pedir {
-            background-color: #000;
-            border: none;
-        }
-
-        #botao_cadastro {
-            color: white;
-            text-decoration: none;
-        }
-
-        #icon_perfil {
-            width: 25px;
-        }
-
-        #carrinho_compra {
-            color: white;
-        }
-        
-        #item_promocao{
-            text-decoration: gray;
-        }
-    </style>
 </body>
 
 </html>

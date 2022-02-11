@@ -33,7 +33,7 @@ $consulta_omelete = $conexao->query("SELECT * FROM `produto` WHERE `classe_produ
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="font-style: normal; font-family: sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <div>

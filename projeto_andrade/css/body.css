@@ -46,3 +46,97 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
         U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* id and class */
+#x_perfil {
+    font-size: 20px;
+}
+
+#entrar_login {
+    margin-top: 5%;
+    margin-left: 34%;
+}
+
+#botao_pedir {
+    color: white;
+}
+
+#portfolioModalP {
+    visibility: visible;
+    opacity: 1;
+    flex-direction: column;
+    position: fixed;
+    padding: 20px;
+    max-width: 370px;
+    border-radius: 8px;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#margintop {
+    margin-top: 10%;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 0 solid #dee2e6;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+
+#perfil {
+    border: none;
+}
+
+#mainNav {
+    background-color: #ca0f0f;
+}
+
+#carrosel {
+    margin-top: 8%;
+    background-color: #000;
+}
+
+#img_carousel {
+    width: 100%;
+}
+
+#lista_pedidos {
+    margin-top: 7%;
+}
+
+#itens {
+    margin-left: 2%;
+}
+
+#social {
+    margin-top: 9px;
+    font-size: 22px;
+}
+
+#botao_pedir {
+    background-color: #000;
+    border: none;
+
+}
+
+#botao_cadastro {
+    color: white;
+    text-decoration: none;
+}
+
+#icon_perfil {
+    width: 25px;
+}
+
+#carrinho_compra {
+    color: white;
+}
+
+#item_promocao{
+    text-decoration: gray;
+}

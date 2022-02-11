@@ -19,10 +19,10 @@
 
 </head>
 
-<body id="page-top">
+<body>
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top" href="index.php">Yukihira -
-                Japan Food</a>
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" href="index.php">Yukihira -Japan Food</a>
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -94,9 +94,9 @@
                     </form>
                     <div class="form-group">
                         <div class="hint-text">
-                            <p style="font-size: 16px;">Não tem uma conta?</p>
+                            <p style="font-size: 20px; font-weight: bold;">Não tem uma conta?</p>
                         </div>
-                        <a href="cadastro.php" id="botao_pedir"><button class="btn btn-primary btn-block btn-1">Cadastre-se</button></a>
+                        <a href="cadastro.php " id="botao_pedir"><button class="btn btn-primary btn-block btn-1" style="text-decoration:none;">Cadastre-se</button></a>
                     </div>
                 </div>
             </div>
@@ -455,34 +455,6 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
-    <style>
-        #x_perfil {
-            font-size: 20px;
-        }
-
-        #entrar_login {
-            margin-top: 5%;
-            margin-left: 34%;
-        }
-
-        #botao_pedir {
-            color: white;
-        }
-
-        #portfolioModalP {
-            visibility: visible;
-            opacity: 1;
-            flex-direction: column;
-            position: fixed;
-            padding: 20px;
-            max-width: 370px;
-            border-radius: 8px;
-            width: 100%;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
 </body>
 
 </html>
